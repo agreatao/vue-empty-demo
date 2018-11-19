@@ -1,0 +1,45 @@
+body {
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    /* background: url('~images/banner.jpg') no-repeat; */
+}
+
+textarea {
+    resize: none;
+}
+
+#app {
+    height: 100%;
+}
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+    border-radius: 8px;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #e5e5e5;
+    border: 2px solid #fff;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #e5e5e5;
+}
+
+/* button */
+::-webkit-scrollbar-button {
+    background: transparent;
+    height: 0;
+    width: 0;
+}
